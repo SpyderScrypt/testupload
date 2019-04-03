@@ -1,0 +1,16 @@
+.navbarContainer {
+  background-color: #271e52;
+  text-align: center;
+  color: aliceblue;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.links {
+  margin-right: 3%;
+  cursor: pointer;
+}
