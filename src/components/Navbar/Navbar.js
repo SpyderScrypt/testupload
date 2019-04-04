@@ -5,8 +5,8 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="navbarContainer">
-        <div>
-          <img src="./spider.png" alt="" />
+        <div className="logoContainer">
+          <img src="./spider.png" alt="" height="70px" width="70px" />
         </div>
         <div className="linksContainer">
           <p className="links">Home</p>

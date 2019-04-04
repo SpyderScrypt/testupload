@@ -2,6 +2,7 @@
   background-color: #271e52;
   text-align: center;
   color: aliceblue;
+  height: 10vh;
 }
 
 .linksContainer {
@@ -12,5 +13,16 @@
 
 .links {
   margin-right: 3%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.links:hover {
+  color: #b6b6b6;
+}
+
+.logoContainer {
+  float: left;
+  margin-left: 3%;
   cursor: pointer;
 }
