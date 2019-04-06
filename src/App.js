@@ -15,8 +15,8 @@ class App extends Component {
         <ParticleBody />
         <HeroText />
         <Team />
-        {/* <InstagramFeed />
-        <Footer /> */}
+        <InstagramFeed />
+        <Footer />
       </div>
     );
   }
