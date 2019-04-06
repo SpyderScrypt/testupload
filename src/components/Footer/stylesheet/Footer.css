@@ -1,0 +1,27 @@
+.footerContainer {
+  background-color: #222222;
+  display: flex;
+  padding: 5% 5% 5% 5%;
+}
+
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-basis: 100%;
+}
+
+.contactField {
+  display: flex;
+}
+
+.contactText {
+  margin: 0;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.instagramLink {
+  text-decoration: none;
+  color: inherit;
+}

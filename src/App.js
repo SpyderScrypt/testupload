@@ -5,6 +5,8 @@ import "./App.css";
 import ParticleBody from "./components/ParticleBoldy/ParticleBody";
 import HeroText from "./components/HeroText/HeroText";
 import Team from "./components/Team/Team";
+import InstagramFeed from "./components/InstagramFeed/InstagramFeed";
+import Footer from "./components/Footer/Footer";
 class App extends Component {
   render() {
     return (
@@ -12,7 +14,9 @@ class App extends Component {
         <Navbar />
         <ParticleBody />
         <HeroText />
-        <Team/>
+        <Team />
+        <InstagramFeed />
+        <Footer />
       </div>
     );
   }

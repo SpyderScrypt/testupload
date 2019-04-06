@@ -5,10 +5,10 @@ import "./stylesheet/ParticleBody.css";
 export default class ParticleBody extends Component {
   render() {
     return (
-      <div className="particleContainer">
+      <div className="particleContainer"  id="home">
         <Particles
+          height="90vh"
           params={{
-            height: "100%",
             particles: {
               number: {
                 value: 150,
@@ -29,11 +29,6 @@ export default class ParticleBody extends Component {
                 },
                 polygon: {
                   nb_sides: 9
-                },
-                image: {
-                  src: "img/github.svg",
-                  width: 100,
-                  height: 100
                 }
               },
               opacity: {

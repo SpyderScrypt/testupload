@@ -1,0 +1,20 @@
+.instagramFeedPageContainer {
+  margin-top: 5%;
+  margin-bottom: 5%;
+
+}
+
+.instagramPostContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.instagramTitle {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #3f4451;
+  text-align: center;
+  margin-bottom: 5%;
+
+}
