@@ -22,7 +22,7 @@
   justify-content: flex-end;
   flex-direction: column;
 
-  background-image: url("/3.jpg");
+  background-image: url("https://spyderscrypt.github.io/sscryptwebsite/3.jpg");
   background-size: 100%; /** moved this property down */
   background-repeat: no-repeat;
   background-position: center;
@@ -39,7 +39,7 @@
   height: 35rem;
   justify-content: flex-end;
   flex-direction: column;
-  background-image: url("/4.jpg");
+  background-image: url("https://spyderscrypt.github.io/sscryptwebsite/4.jpg");
   background-size: 100%; /** moved this property down */
   background-repeat: no-repeat;
   background-position: center;
@@ -57,4 +57,11 @@
   align-self: flex-start;
   bottom: 40%;
   left: 5%;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For desktop: */
+  .teamDescription {
+    font-size: 1rem;
+  }
 }

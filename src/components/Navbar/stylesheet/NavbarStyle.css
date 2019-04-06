@@ -3,15 +3,16 @@
   text-align: center;
   color: aliceblue;
   height: 10vh;
-  position: fixed;
-  width: 100%;
+  /* position: fixed; */
   z-index: 2;
+  width: 100%;
 }
 
 .linksContainer {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  flex-wrap: wrap;
 }
 
 .linksContainer {

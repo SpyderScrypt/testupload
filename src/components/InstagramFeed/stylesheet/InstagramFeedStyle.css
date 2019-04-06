@@ -1,12 +1,12 @@
 .instagramFeedPageContainer {
   margin-top: 5%;
   margin-bottom: 5%;
-
 }
 
 .instagramPostContainer {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .instagramTitle {
@@ -16,5 +16,4 @@
   color: #3f4451;
   text-align: center;
   margin-bottom: 5%;
-
 }
