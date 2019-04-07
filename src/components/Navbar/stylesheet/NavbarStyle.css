@@ -17,13 +17,15 @@
 
 .linksContainer {
   margin-right: 3%;
-  cursor: pointer;
+  /* cursor: pointer; */
   font-size: 18px;
   text-decoration: none;
 }
 
 .links {
   text-decoration: none;
+  cursor: pointer;
+
   color: inherit;
 }
 
