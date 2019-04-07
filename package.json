@@ -2,7 +2,7 @@
   "name": "sscryptwebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://spyderscrypt.guthub.io/testupload/",
+  "homepage": "https://SpyderScrypt.guthub.io/testupload/",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "gh-pages": "^2.0.1",
