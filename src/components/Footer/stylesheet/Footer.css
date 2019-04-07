@@ -26,3 +26,11 @@
   text-decoration: none;
   color: inherit;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+  .footerContainer {
+    flex-wrap: wrap;
+  }
+}
