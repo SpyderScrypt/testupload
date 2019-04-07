@@ -3,7 +3,7 @@
   text-align: center;
   color: aliceblue;
   height: 10vh;
-  /* position: fixed; */
+  position: fixed;
   z-index: 2;
   width: 100%;
 }
