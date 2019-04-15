@@ -6,9 +6,10 @@ import PageNotFound from "../components/PageNotFound/PageNotFound";
 class Router extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route exact path="/" component={App} />
+          <Route exact path="/unknown" component={PageNotFound} />
           <Route path="*" component={PageNotFound} />
         </Switch>
       </BrowserRouter>
