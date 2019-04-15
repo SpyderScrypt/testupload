@@ -21,7 +21,7 @@
   height: 35rem;
   justify-content: flex-end;
   flex-direction: column;
-  background-image: url("https://sscrypts.com/3.jpg");
+  background-image: url("https://sscrypts.com/images/3.jpg");
 
   /* background-image: url("https://spyderscrypt.github.io/sscryptwebsite/3.jpg"); */
   background-size: 100%; /** moved this property down */
@@ -41,7 +41,7 @@
   height: 35rem;
   justify-content: flex-end;
   flex-direction: column;
-  background-image: url("https://sscrypts.com/4.jpg");
+  background-image: url("https://sscrypts.com/images/4.jpg");
 
   /* background-image: url("https://spyderscrypt.github.io/sscryptwebsite/4.jpg"); */
   background-size: 100%; /** moved this property down */
