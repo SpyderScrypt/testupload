@@ -6,29 +6,18 @@ export default class Navbar extends Component {
     return (
       <div className="navbarContainer">
         <div className="logoContainer">
-          <img src="./spider.png" alt="" height="100%" width="100%" />
+          <img src={this.props.logoPath} alt="" height="100%" width="100%" />
         </div>
         <div className="linksContainer">
-          <p className="linksContainer">
-            <a href="#home" className="links">
-              Home
-            </a>
-          </p>
-          <p className="linksContainer">
-            <a href="#team" className="links">
-              Team
-            </a>
-          </p>
-          <p className="linksContainer">
-            <a href="#instagram" className="links">
-              Instagram Feed
-            </a>
-          </p>
-          <p className="linksContainer">
-            <a href="#footer" className="links">
-              Contact Us
-            </a>
-          </p>
+          {this.props.title.map(title => {
+            return (
+              <p className="linksContainer">
+                <a href={`${title.link}`} className="links">
+                  {title.title}
+                </a>
+              </p>
+            );
+          })}
         </div>
       </div>
     );
