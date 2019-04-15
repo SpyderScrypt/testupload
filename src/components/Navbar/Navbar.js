@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./stylesheet/NavbarStyle.css";
-// asd
+import { Link } from "react-router-dom";
+
 export default class Navbar extends Component {
   render() {
     return (
@@ -18,6 +19,9 @@ export default class Navbar extends Component {
               </p>
             );
           })}
+          <p className="linksContainer">
+            <Link to={`${process.env.PUBLIC_URL}/unknown`} className="links">Blog</Link>
+          </p>
         </div>
       </div>
     );

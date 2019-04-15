@@ -27,7 +27,8 @@ class App extends Component {
       {
         title:"Contact Us",
         link:"#footer"
-      }
+      },
+      
     ]
 
     return (
